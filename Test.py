@@ -1,6 +1,6 @@
 # Arpit Patel
 #The following code is for the test cases for the traingle program.
-import unittest
+import pytest
 from Triangle import classify_triangle
 
 class TestClass:
@@ -88,5 +88,5 @@ class TestClass:
 
 if __name__ == '__main__':
     print('Running test cases')
-    unittest.main()
+    pytest.main()
 
