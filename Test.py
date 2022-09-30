@@ -3,7 +3,7 @@
 import unittest
 from Triangle import classify_triangle
 
-class TestClass:
+class Test(unittest.TestCase):
 
     def test_case1(self):
         print("Test for Equilateral triangle\n")
